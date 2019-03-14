@@ -14,7 +14,6 @@ logger.setLevel(logging.INFO)
 
 boto_session = session.Session(profile_name="Apps")
 
-
 def main(table, output=None):
     """Export DynamoDb Table."""
     print('export dynamodb: {}'.format(table))
